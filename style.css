@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+
+body {
+    font-family: "Oxygen", sans-serif;
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e33434;
+    color: white;
+    height: 30vh;
+}
+
+.page {
+    margin: 10vw;
+}
+
+.banner {
+    background-color: #e33434;
+    height: 20vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.banner h1 {
+    margin: 0;
+}
+
+.blog-img {
+    width: 38vw;
+}
+
+.article-sect-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.paragraph {
+    width: 38vw;
+}
+
+.article-sect-2 {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.article-sect-2 img{
+    width: 26vw;
+}
+
+.flag {
+    position: relative;
+    left: -13vw;
+    top: -7.25vw;
+}
+
+
+#flag-img
+{
+    position: absolute;
+    z-index: 0;
+    opacity: 0;
+    filter: blur(20px);
+}
+
+.top-img
+{   
+    position: absolute;
+    z-index: 1;
+}
+
