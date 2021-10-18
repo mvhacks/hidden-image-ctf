@@ -4,13 +4,13 @@ var styles = window.getComputedStyle(image);
 
 function checkForChanges()
 {
-    if (styles.getPropertyValue('position') != 'absolute' && styles.getPropertyValue('opacity') != '0' && styles.getPropertyValue('z-index') != '0' && styles.getPropertyValue('filter') != 'blur(20px)' && image.src != 'realflag.jpeg')
+    if (styles.getPropertyValue('filter') != 'blur(10px)' && image.src != 'realflag.jpg')
     {
-        image.src = 'images/realflag.jpeg';
+        image.src = 'images/realflag.jpg';
     }
-    else if (image.src != 'images/flag.jpg')
+    else if (image.src != 'images/flag.png')
     {
-        image.src = 'images/flag.jpg';
+        image.src = 'images/flag.png';
     }
 
     setTimeout(checkForChanges, 500);
